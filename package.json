@@ -1,0 +1,20 @@
+{
+  "name": "avertizarihr-bot",
+  "version": "1.0.0",
+  "description": "Bot schimbare status Mattermost in functie de inregistrarile din condica prezenta ERP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "avertizari-hr-bot"
+  },
+  "author": "Bogdan Tomasciuc",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mssql": "^8.0.2"
+  }
+}
